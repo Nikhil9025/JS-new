@@ -29,3 +29,38 @@ let Myobj = {
 };
 
 console.table(Myobj);
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+
+// Memory : Stack , Heap .
+
+// Stack(Primitive) , Heap(Non-primitive)
+
+//Stack (Premitive)
+
+let Email = "nikhil@26gmai.com";
+let myEmail = Email ;
+myEmail = "nt@gmai.com";     // premitive data type in stack memory . clone/copy .
+console.log(Email);
+console.log(myEmail);
+
+//Heap (Non-premitive) 
+
+let obj1 ={
+
+    name:"Nikhil",
+    Age:25 
+                        // Non-premitive data type in Heap Meory . Not copy / Not clone .
+};
+
+let  obj2 = obj1 ;
+obj2.name="Naresh";
+ console.log(obj2);
+ console.log(obj1);
+ 
+ 
+
+
