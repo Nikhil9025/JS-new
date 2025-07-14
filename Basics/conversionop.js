@@ -33,3 +33,31 @@ console.log(booleanisLoggedeIn);
 // "23"  == > 23 .
 // "23abc"  == > NaN .
 //  true => 1; ,  false  => 0;
+
+//Operations
+
+let Num = 3;
+
+let negNum = -Num;
+
+console.log(negNum);
+console.log(typeof negNum);
+
+
+// Type conversion . 
+
+console.log("1" + 2);   //  o/p is 12 because "1" is string .
+console.log(1 + "2");   // o/p is 12 because "2" is string .
+console.log("1" + 2 + 2); // o/p is 122 because "1" is string . 
+console.log(2 + 1 + "1"); // o/p is 31 becuse "1" is string 
+ 
+// if the first position is in the string then it consider as whole string .
+// if the the first position is in the number then it is consider as number then strings .
+
+
+
+
+
+
+
+
