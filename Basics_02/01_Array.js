@@ -22,9 +22,9 @@ console.log(myArray);
 console.log(myArray.includes(12)); // it will give booolean value False .
 console.log(myArray.includes(26)); // it will give booolean value true .
 
-console.log(myArray.indexOf(17));  // it gives -1 in O/P beacuse 17 index number are not present in array .
+console.log(myArray.indexOf(17));  //if element is not present in array then it will give -1 in O/P.
 
-console.log(myArray.indexOf(26)); // it gives 1 in O/P because (26) present in array .
+console.log(myArray.indexOf(26)); // indexOf gives index number in O/P  we need to put array element in method.
 
 const newArray = myArray.join(); // .join used to convert array into astring , also it bind the string .
 console.log(newArray);
