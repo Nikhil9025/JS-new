@@ -17,10 +17,10 @@ const User = {
     lastLoginDays: ["Monday", "Tuesday", "Wednesday"],
 };
 
-// console.log(User);
-// console.log(User[mySymbol]);
+console.log(User);
+console.log(User[mySymbol]);
 
-// console.log(typeof mySymbol); // symbol converstion .
+console.log(typeof mySymbol); // symbol converstion .
 
 
 //----------------------------///////////////-----------------------////////////////////////---------------------
@@ -28,13 +28,13 @@ const User = {
 
 // // changing the value inside the object .
 
-// User.Email = "nikhil.tisangikar@gmail.com";
+User.Email = "nikhil.tisangikar@gmail.com";
 
-// console.log(User.Email);  // Email changed .
+console.log(User.Email);  // Email changed .
 
-// // Freezing the object .
+// Freezing the object .
 
-// Object.freeze(User); // This will freeze the object and prevent any changes to it. now we cannot change the properties of the object .
+Object.freeze(User); // This will freeze the object and prevent any changes to it. now we cannot change the properties of the object .
 
 
 
