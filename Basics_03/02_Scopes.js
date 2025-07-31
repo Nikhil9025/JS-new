@@ -26,7 +26,7 @@ function one() {
 
         const website = "You Tube";
 
-        console.log(UserName);
+        console.log(UserName); 
         console.log(website);
     }
 
@@ -67,8 +67,9 @@ function addone(num) {
 
 addtwo(5); // but in this case we canno't acces function before the initiallization .
 const addtwo = function (num) {
-    return num+2;
+    return num + 2;
 } // This function will not run laearn hoistiong to understand how it works. 
+
 
 
 
