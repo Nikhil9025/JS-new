@@ -7,7 +7,7 @@
 
 for (let index = 1; index <= 5; index++) {
 
-    // console.log(index);
+    console.log(index);
 
 }
 
@@ -19,10 +19,10 @@ for (let i = 0; i <= 10; i++) {
     const element = i;
 
     if (element == 5) {
-        // console.log("5 is the best number");
+        console.log("5 is the best number");
     }
 
-    // console.log(element);
+    console.log(element);
 
 }
 
@@ -36,7 +36,7 @@ for (let i = 0; i <= 5; i++) {
     for (let j = 0; j <= 5; j++) {
 
         // console.log(`Inner Loop ${j} and inner loop value ${i}`);
-        // console.log(i + "*" + j + " = " + i*j );
+        console.log(i + "*" + j + " = " + i*j );
 
     }
 }
@@ -49,7 +49,7 @@ const myArray = ["Shaktiman", "Krish", "Kaal"];
 
 for (let index = 0; index < myArray.length; index++) {
     const element = myArray[index];
-    // console.log(element);
+    console.log(element);
 
 }
 
@@ -75,7 +75,7 @@ for (let index = 1; index <= 20; index++){
     const element = index;
     if (element == 5) {
         console.log("5 Detected");
-        continue;                      // continue; statement will skip condition .
+        continue;                      // continue; statement will skip perticular condition and run remaining loop .
     }
 
     console.log(`index value is ${element}`);
