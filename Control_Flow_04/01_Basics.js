@@ -44,12 +44,55 @@ if (balence >= 500) console.log("Account Approved"); // single line short hand p
 if (balence <= 500) console.log("Account Declined"),
     console.log("Minimun 500 Rs Balence Required for Approve"); // multiple line short hand property . please do not use this short hand properteis .
 
-// Nesting . or Multiple Condition .
+// Nesting or Multiple Condition .
+
+let AccountBalence = 29000;
 
 
+if (AccountBalence >= 50000) {
+
+    console.log("Congratulations You Got = Platium Membership");
+
+} else if (AccountBalence >= 40000) {
+    
+    console.log("Congratulations You Got = Golden Membership");
+    
+} else if (AccountBalence >= 30000) {
+    
+    console.log("Congratulations You Got = Silver Membership");
+    
+}else{
+
+    console.log("You Are Not Eligible for Membership");
+    
+}
+
+// Writing Conditions in if expression using && , || (AND OR) ;
+
+// 1st Example . (&& , AND) .
+
+const UserLoggedIn = true;
+const DebitCard = false
+
+if (UserLoggedIn && DebitCard) {
+    
+    console.log("You Are Allow To Buy Courses");
+    
+}else{
+    console.log("Not Allowed To Buy Courses");
+    
+}
+
+// 2nd Example . (|| , OR) .
 
 
+const loggInFromGoogle = false;
+const loggInFromGmail = true;
 
 
-
+if (loggInFromGoogle || loggInFromGmail) {
+    
+    console.log("Logged Successfully");
+    
+}
 
